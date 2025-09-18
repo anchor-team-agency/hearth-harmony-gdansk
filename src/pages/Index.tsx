@@ -16,27 +16,13 @@ import Summary from "@/components/Summary";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  console.log("Index component is rendering");
+  
   return (
-    <>
-      <StructuredData />
-      <Navigation />
-      <main className="min-h-screen" role="main">
-        <HeroSection />
-        <ServiceDetails />
-        <StoreLocation />
-        <ComprehensiveOffer />
-        <WhyUs />
-        <AboutUs />
-        <Portfolio />
-        <Pricing />
-        <ProductExample />
-        <CustomerReviews />
-        <Contact />
-        <FAQ />
-        <Summary />
-        <Footer />
-      </main>
-    </>
+    <div style={{ background: 'red', color: 'white', padding: '20px' }}>
+      <h1>TEST - Czy to się wyświetla?</h1>
+      <p>Jeśli widzisz ten tekst, aplikacja React działa</p>
+    </div>
   );
 };
 
