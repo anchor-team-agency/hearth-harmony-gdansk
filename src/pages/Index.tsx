@@ -19,10 +19,26 @@ const Index = () => {
   console.log("Index component is rendering");
   
   return (
-    <div style={{ background: 'red', color: 'white', padding: '20px' }}>
-      <h1>TEST - Czy to się wyświetla?</h1>
-      <p>Jeśli widzisz ten tekst, aplikacja React działa</p>
-    </div>
+    <>
+      <StructuredData />
+      <Navigation />
+      <main className="min-h-screen" role="main">
+        <HeroSection />
+        <ServiceDetails />
+        <StoreLocation />
+        <ComprehensiveOffer />
+        <WhyUs />
+        <AboutUs />
+        <Portfolio />
+        <Pricing />
+        <ProductExample />
+        <CustomerReviews />
+        <Contact />
+        <FAQ />
+        <Summary />
+        <Footer />
+      </main>
+    </>
   );
 };
 
