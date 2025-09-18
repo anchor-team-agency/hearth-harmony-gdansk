@@ -21,13 +21,18 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center lg:text-left">
         <header>
           <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Montaż kominków<br />
-            <span className="text-fire-orange">w Gdańsku</span>
+            Kominki Gdańsk – sprzedaż i montaż
           </h1>
           
           <p className="text-xl lg:text-2xl text-white/90 mb-8 max-w-2xl">
-          Oferujemy kompleksowe prace instalacyjne w Gdańsku - od konsultacji projektowej po gotowy do użytkowania system grzewczy. Realizacje wykonujemy z myślą o ergonomii, estetyce i zgodności z obowiązującymi przepisami.
+            Tworzymy ciepłą atmosferę w Twoim domu. Doradzimy, dostarczymy i profesjonalnie zamontujemy kominek – z gwarancją i w ustalonym terminie.
           </p>
+          
+          <ul className="text-white/90 mb-8 space-y-2 list-disc list-inside">
+            <li>Szybkie terminy</li>
+            <li>Gwarancja montażu</li>
+            <li>Gdańsk i okolice</li>
+          </ul>
           
           <Button 
             variant="hero" 
